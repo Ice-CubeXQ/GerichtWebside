@@ -463,11 +463,12 @@ body.popup-show::after {
           transform: scale(0);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background-color: #4f284f;
+  background-color: #202020;
   padding: 20px;
   width: 100%;
   max-width: 900px;
   border-radius: 20px;
+  color: #ac9a5a;
 }
 
 .qs-datepicker-container {
@@ -1156,6 +1157,7 @@ body.popup-show::after {
 
 .footer__copy {
   text-align: center;
+  line-height: 175%;
 }
 
 .contacts-footer {

@@ -141,7 +141,7 @@
 									</div>
 									<div class="form-book__line">
 										<div class="form-book__input _icon-select-arrow">
-											<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-required placeholder="14/09/2023" data-calendar class="input-dark">
+											<input autocomplete="off" type="text" name="form[]" data-error="Error" data-required placeholder="14/09/2023" data-calendar class="input-dark">
 										</div>
 									</div>
 									<div class="form-book__line">
@@ -524,7 +524,7 @@
 								</div>
 								<div class="newsletter__advice">And never miss latest Updates!</div>
 							</div>
-							<form action="#" class="newsletter__form form-newsletter">
+							<form data-dev data-popup-massage="#formMessage" action="#" class="newsletter__form form-newsletter">
 								<div class="form-newsletter__line">
 									<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Email Address" class="input-dark">
 									<button class="form-newsletter__button button" type="submit">Subscribe</button>
@@ -570,7 +570,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="footer__copy">2021 Gerícht. All Rights reserved.</div>
+				<div class="footer__copy">2023 Gerícht. All Rights reserved.<br>dev. by Ice-CudeXQ</div>
 			</div>
 		</footer>
 	</div>
@@ -578,9 +578,9 @@
 	<div id="formMessage" aria-hidden="true" class="popup">
 		<div class="popup__wrapper">
 			<div class="popup__content">
-				<button data-close type="button" class="popup__close">Закрыть</button>
+				<button data-close type="button" class="popup__close">Close</button>
 				<div class="popup__text">
-					все ок
+					Form submitted
 				</div>
 			</div>
 		</div>
