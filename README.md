@@ -1,2 +1,5 @@
 # [Gericht Website](https://ice-cubexq.github.io/GerichtWebsite/) 
-![Home page](/img/screenshot.png)
+## [Home Page](https://ice-cubexq.github.io/GerichtWebsite/home.html)
+![Home page](/img/screenshots/screenshot.png)
+## [Bar Page](https://ice-cubexq.github.io/GerichtWebsite/bar.html)
+![Bar page](/img/screenshots/screenshot2.jpg)
