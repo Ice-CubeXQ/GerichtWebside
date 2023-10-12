@@ -886,6 +886,7 @@ body.popup-show::after {
      object-fit: contain;
 }
 
+.bar-video-module__content,
 .poison__item::after,
 .main-bar-slider__controll,
 .main-bar-slider__text,
@@ -2299,6 +2300,57 @@ body.popup-show::after {
   -webkit-transition: opacity 0.3s ease 0s;
   transition: opacity 0.3s ease 0s;
   width: 100%;
+}
+
+.bar-video-module {
+  position: relative;
+  padding-bottom: 46.875%;
+}
+
+.bar-video-module__item {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bar-video-module__content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10;
+  text-align: center;
+}
+
+.bar-video-module__title {
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #dcca87;
+  text-transform: capitalize;
+}
+
+.bar-video-module__info {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 130%;
 }
 
 @font-face {
@@ -3815,6 +3867,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   .poison__item::after {
     font-size: 2.8125rem;
   }
+
+  .bar-video-module__title {
+    font-size: 8rem;
+  }
+
+  .bar-video-module__info {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 86.875em) {
@@ -4177,6 +4237,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .poison__item::after {
     font-size: 1.25rem;
+  }
+
+  .bar-video-module__title {
+    font-size: 2.5rem;
+  }
+
+  .bar-video-module__info {
+    font-size: 1rem;
   }
 }
 
@@ -4842,6 +4910,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .poison__item::after {
     font-size: calc(1.25rem + 1.5625 * (((100vw - 20rem)) / ((63.125))));
+  }
+
+  .bar-video-module__title {
+    font-size: calc(2.5rem + 5.5 * (((100vw - 20rem)) / ((63.125))));
+  }
+
+  .bar-video-module__info {
+    font-size: calc(1rem + 1 * (((100vw - 20rem)) / ((63.125))));
   }
 }
 
